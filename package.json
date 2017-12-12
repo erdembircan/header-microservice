@@ -4,23 +4,22 @@
   "description": "freeCodeCamp header microservice api project",
   "main": "index.js",
   "scripts": {
+    "start": "node ./server/index.js",
+    "devStart": "nodemon ./server/index.js",
     "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/erdembircan/header-microservice.git"
   },
-  "keywords": [
-    "freecodecamp",
-    "request",
-    "header",
-    "microservice",
-    "header"
-  ],
+  "keywords": ["freecodecamp", "request", "header", "microservice", "header"],
   "author": "Erdem Bircan <erdem.erdembircan@gmail.com> (https://erdembircan.github.io/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/erdembircan/header-microservice/issues"
   },
-  "homepage": "https://github.com/erdembircan/header-microservice#readme"
+  "homepage": "https://github.com/erdembircan/header-microservice#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }

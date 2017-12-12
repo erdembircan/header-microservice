@@ -14,9 +14,5 @@ Request Header Parser API Project <img  src="https://travis-ci.org/erdembircan/t
 <code>https://limitless-gorge-38874.herokuapp.com/1450137600</code>
 <h3>Example output:</h3>
 <samp>
-          {
-            "ip": "192.168.1.0",
-            "language": "english",
-            "software": "linux"
-          }
+          {"ip":"localhost:3000","software":"Linux x86_64","language":"en-US,en-GB"}
 </samp>
