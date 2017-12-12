@@ -4,6 +4,9 @@
   "description": "freeCodeCamp header microservice api project",
   "main": "index.js",
   "scripts": {
+    "start": "node ./server/index.js",
+    "devStart": "nodemon ./server/index.js",
+    "devTest": "jest --verbose --watchAll",
     "test": "jest"
   },
   "repository": {
@@ -22,5 +25,12 @@
   "bugs": {
     "url": "https://github.com/erdembircan/header-microservice/issues"
   },
-  "homepage": "https://github.com/erdembircan/header-microservice#readme"
+  "homepage": "https://github.com/erdembircan/header-microservice#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "supertest": "^3.0.0"
+  }
 }
